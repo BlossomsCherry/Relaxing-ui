@@ -1,0 +1,10 @@
+:root {
+    --primary-text-color: #606266;
+    --primary-color: #409eff;
+    --primary-color-light: #ecf5ff;
+    --text--color: rgba(0, 0, 0, 0.8509803922);
+    --success-color: #09b63d;
+    --error-color: #ec3437;
+    --warn-color: #ff9900;
+    --r-skeleton-circle-size: 200px
+}

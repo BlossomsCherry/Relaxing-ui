@@ -1,0 +1,124 @@
+[
+  {
+    "title-cn": "Basic 基础组件",
+    "title-en": "Basic ",
+    "list": [
+      {
+        "name": "布局",
+        "eName": "Layout"
+      },
+      {
+        "name": "颜色",
+        "eName": "Color"
+      },
+      {
+        "name": "图标",
+        "eName": "Icon"
+      },
+      {
+        "name": "按钮",
+        "eName": "Button"
+      },
+      {
+        "name": "滚动条",
+        "eName": "Scrollbar"
+      }
+    ]
+  },
+  {
+    "title-cn": "Form 表单组件",
+    "title-en": "Form",
+    "list": [
+      {
+        "name": "输入框",
+        "eName": "Input"
+      },
+      {
+        "name": "单选框",
+        "eName": "Radio"
+      },
+      {
+        "name": "表单",
+        "eName": "Form"
+      },
+      {
+        "name": "评分",
+        "eName": "Rate"
+      },
+      {
+        "name": "开关",
+        "eName": "Switch"
+      }
+    ]
+  },
+  {
+    "title-cn": "Data 数据展示",
+    "title-en": "Data",
+    "list": [
+      {
+        "name": "徽章",
+        "eName": "Badge"
+      },
+      {
+        "name": "表格",
+        "eName": "Table"
+      },
+      {
+        "name": "树",
+        "eName": "Tree"
+      },
+      {
+        "name": "骨架屏",
+        "eName": "Skeleton"
+      }
+    ]
+  },
+  {
+    "title-cn": "Navigation 导航",
+    "title-en": "Navigation",
+    "list": [
+      {
+        "name": "标签页",
+        "eName": "Tabs"
+      },
+      {
+        "name": "下拉框",
+        "eName": "Dropdown"
+      },
+      {
+        "name": "步骤条",
+        "eName": "Steps"
+      }
+    ]
+  },
+  {
+    "title-cn": "Feedback 反馈组件",
+    "title-en": "Feedback",
+    "list": [
+      {
+        "name": "加载中",
+        "eName": "Loading"
+      },
+      {
+        "name": "消息",
+        "eName": "Message"
+      },
+      {
+        "name": "消息确认",
+        "eName": "Confirm"
+      },
+      {
+        "name": "通知",
+        "eName": "Notification"
+      },
+      {
+        "name": "对话框",
+        "eName": "Dialog"
+      },
+      {
+        "name": "抽屉",
+        "eName": "Drawer"
+      }
+    ]
+  }
+]
