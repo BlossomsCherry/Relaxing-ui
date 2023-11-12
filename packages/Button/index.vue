@@ -1,20 +1,4 @@
-<template>
-  <button
-    :class="[
-      'r-button',
-      `r-button-${type}`,
-      { 'is-plain': plain, 'is-round': round, 'is-disabled': disabled }
-    ]"
-    :style="style"
-    :disabled="disabled"
-  >
-    <i :class="isIconClass" style="margin: 0 3px" v-if="leftIcon"></i>
-    <span>
-      <slot></slot>
-    </span>
-    <i :class="isIconClass" v-if="rightIcon"></i>
-  </button>
-</template>
+
 
 <script setup lang="ts">
 import { computed } from 'vue'
@@ -74,6 +58,24 @@ const isIconClass = computed(() => {
   ]
 })
 </script>
+
+<template>
+  <button
+    :class="[
+      'r-button',
+      `r-button-${type}`,
+      { 'is-plain': plain, 'is-round': round, 'is-disabled': disabled }
+    ]"
+    :style="style"
+    :disabled="disabled"
+  >
+    <i :class="isIconClass" style="margin: 0 3px" v-if="leftIcon"></i>
+    <span>
+      <slot></slot>
+    </span>
+    <i :class="isIconClass" v-if="rightIcon"></i>
+  </button>
+</template>
 
 <style>
 @import '../../styles/iconfont.css';
